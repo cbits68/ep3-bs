@@ -61,11 +61,11 @@ return array(
     'Please %sdrop us a note%s in case of unexpected error messages, %s so that we can repair them quickly.'
         => 'Bitte %sinformieren Sie uns%s bei exotischen oder nicht nachvollziehbaren Fehlermeldungen, %s damit wir das Problem schnell beheben können.',
 
-    'Powered by %s' => 'Angetrieben von %s',
+    'Powered by %s' => 'Betrieben mit %s',
     'Do your like our service?' => 'Gefällt Ihnen unser Angebot?',
     'Contact & Feedback' => 'Kontakt & Feedback',
     'Our website' => 'Unsere Internetseite',
-    'Information about' => 'Infos & Bilder über',
+    'Information about' => 'Aktuelle Informationen',
     'Book by phone' => 'Telefonische Buchung',
 
     'Imprint' => 'Impressum',

@@ -84,7 +84,7 @@ class EditForm extends Form
             'attributes' => array(
                 'id' => 'bf-quantity',
                 'style' => 'width: 110px;',
-                'value' => '1',
+                'value' => '2',
             ),
             'options' => array(
                 'label' => 'Number of players',

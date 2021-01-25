@@ -3,6 +3,17 @@
         <td class="responsive-pass-4" style="padding-right: 12px; border-right: solid 1px #CCC;">
             <div id="userpanel-status" class="no-wrap">
                 <?= sprintf($this->t('Online as %s'), $this->user->need('alias')) ?>
+				<?php 
+                    // Usernamen pruefen um evtl. den Kiosk-Mode zu aktivieren
+                    $useralias = $this->user->need('alias');
+                    
+                    $pos = strpos($useralias, 'Kiosk-');
+                    
+                    if($pos === 0)
+                    {
+                        $this->headScript()->appendFile($this->basePath('js/controller/frontend/autoreload.js'));
+                    }
+                ?>
             </div>
         </td>
 
