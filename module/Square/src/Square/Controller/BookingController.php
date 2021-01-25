@@ -18,7 +18,7 @@ class BookingController extends AbstractActionController
         $timeEndParam = $this->params()->fromQuery('te');
         $squareParam = $this->params()->fromQuery('s');
 
-        $serviceManager = $this->getServiceLocator();
+        $serviceManager = @$this->getServiceLocator();
         $squareValidator = $serviceManager->get('Square\Service\SquareValidator');
 
         $byproducts = $squareValidator->isBookable($dateStartParam, $dateEndParam, $timeStartParam, $timeEndParam, $squareParam);
@@ -52,7 +52,7 @@ class BookingController extends AbstractActionController
         $productsParam = $this->params()->fromQuery('p', 0);
         $playerNamesParam = $this->params()->fromQuery('pn', 0);
 
-        $serviceManager = $this->getServiceLocator();
+        $serviceManager = @$this->getServiceLocator();
         $squareValidator = $serviceManager->get('Square\Service\SquareValidator');
 
         $byproducts = $squareValidator->isBookable($dateStartParam, $dateEndParam, $timeStartParam, $timeEndParam, $squareParam);
@@ -134,6 +134,12 @@ class BookingController extends AbstractActionController
 
         if ($playerNamesParam) {
             $playerNames = Json::decode($playerNamesParam, Json::TYPE_ARRAY);
+
+            foreach ($playerNames as $playerName) {
+                if (strlen(trim($playerName['value'])) < 5 || strpos(trim($playerName['value']), ' ') === false) {
+                    throw new \RuntimeException('Die <b>vollständigen Vor- und Nachnamen</b> der anderen Spieler sind erforderlich');
+                }
+            }
         } else {
             $playerNames = null;
         }
@@ -175,9 +181,16 @@ class BookingController extends AbstractActionController
                     ));
                 }
 
+                if ($square->get('allow_notes')) {
+                    $userNotes = "Anmerkungen des Benutzers:\n" . $this->params()->fromPost('bf-user-notes');
+                } else {
+                    $userNotes = '';
+                }
+
                 $bookingService = $serviceManager->get('Booking\Service\BookingService');
                 $bookingService->createSingle($user, $square, $quantityParam, $byproducts['dateStart'], $byproducts['dateEnd'], $bills, array(
                     'player-names' => serialize($playerNames),
+                    'notes' => $userNotes,
                 ));
 
                 $this->flashMessenger()->addSuccessMessage(sprintf($this->t('%sCongratulations:%s Your %s has been booked!'),
@@ -198,7 +211,7 @@ class BookingController extends AbstractActionController
             throw new RuntimeException('This booking does not exist');
         }
 
-        $serviceManager = $this->getServiceLocator();
+        $serviceManager = @$this->getServiceLocator();
         $bookingManager = $serviceManager->get('Booking\Manager\BookingManager');
         $squareValidator = $serviceManager->get('Square\Service\SquareValidator');
 

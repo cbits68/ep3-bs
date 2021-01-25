@@ -10,7 +10,7 @@ class CalendarController extends AbstractActionController
 
     public function indexAction()
     {
-        $serviceManager = $this->getServiceLocator();
+        $serviceManager = @$this->getServiceLocator();
 
         $bookingManager = $serviceManager->get('Booking\Manager\BookingManager');
         $eventManager = $serviceManager->get('Event\Manager\EventManager');
@@ -45,6 +45,22 @@ class CalendarController extends AbstractActionController
         }
 
         $dateStart = $this->calendarDetermineDate();
+        $i = 0;
+
+        while (in_array($dateStart->format($this->t('Y-m-d')), $dayExceptions) ||
+            in_array($this->t($dateStart->format('l')), $dayExceptions)) {
+
+            if (! in_array($dateStart->format($this->t('Y-m-d')), $dayExceptionsExceptions)) {
+                $dateStart->modify('+1 day');
+            }
+
+            $i++;
+
+            if ($i >= 1000) {
+                throw new \RuntimeException('Too many days are hidden from calendar');
+            }
+        }
+
         $dateEnd = clone $dateStart;
 
         for ($i = 1; $i < $daysToRender; $i++) {
