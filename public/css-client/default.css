@@ -39,3 +39,14 @@ a.cc-conflict:hover { background-color: #334F6A; }
 /* Links */
 
 a:link, a:visited { color: #334F6A; }
+@media (max-width: 1024px) {
+    #calendar {
+        overflow: scroll;
+    }
+}
+
+@media (max-width: 512px) {
+    .calendar-date-table.full-width {
+        min-width: 800px;
+    }
+}

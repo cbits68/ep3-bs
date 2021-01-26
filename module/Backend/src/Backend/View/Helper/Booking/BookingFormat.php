@@ -48,6 +48,27 @@ class BookingFormat extends AbstractHelper
 
         $html .= sprintf('<td><b>%s</b></td>',
             $userName);
+			
+			        $booking = $reservation->needExtra('booking');
+        $playerNames = $booking->getMeta('player-names');
+        $outputPlayerNames = null;
+        if ($playerNames) {
+            $playerNames = @unserialize($playerNames);
+            if ($playerNames) {
+                foreach ($playerNames as $playerData) {
+                    $nameData = $playerData['value'];
+                    if ($nameData !== "") {
+                        if ($outputPlayerNames === null) {
+                            $outputPlayerNames = $nameData;
+                        } else {
+                            $outputPlayerNames .= sprintf('<br />%1$s', $nameData);
+                        }
+                    }
+                }
+            }
+        }
+
+        $html .= sprintf('<td><b>%s</b></td>', $outputPlayerNames);
 
         /* Date and time col */
 

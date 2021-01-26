@@ -35,10 +35,6 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
-            "support": {
-                "issues": "https://github.com/container-interop/container-interop/issues",
-                "source": "https://github.com/container-interop/container-interop/tree/master"
-            },
             "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
@@ -91,10 +87,6 @@
                 "constructor",
                 "instantiate"
             ],
-            "support": {
-                "issues": "https://github.com/doctrine/instantiator/issues",
-                "source": "https://github.com/doctrine/instantiator/tree/1.4.0"
-            },
             "funding": [
                 {
                     "url": "https://www.doctrine-project.org/sponsorship.html",
@@ -157,10 +149,6 @@
                 "object",
                 "object graph"
             ],
-            "support": {
-                "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.10.2"
-            },
             "funding": [
                 {
                     "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
@@ -216,10 +204,6 @@
                 "reflection",
                 "static analysis"
             ],
-            "support": {
-                "issues": "https://github.com/phpDocumentor/ReflectionCommon/issues",
-                "source": "https://github.com/phpDocumentor/ReflectionCommon/tree/2.x"
-            },
             "time": "2020-06-27T09:03:43+00:00"
         },
         {
@@ -272,10 +256,6 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "support": {
-                "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
-                "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/master"
-            },
             "time": "2020-09-03T19:13:55+00:00"
         },
         {
@@ -321,10 +301,6 @@
                 }
             ],
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
-            "support": {
-                "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
-                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.4.0"
-            },
             "time": "2020-09-17T18:55:26+00:00"
         },
         {
@@ -388,10 +364,6 @@
                 "spy",
                 "stub"
             ],
-            "support": {
-                "issues": "https://github.com/phpspec/prophecy/issues",
-                "source": "https://github.com/phpspec/prophecy/tree/v1.10.3"
-            },
             "time": "2020-03-05T15:02:03+00:00"
         },
         {
@@ -455,11 +427,6 @@
                 "testing",
                 "xunit"
             ],
-            "support": {
-                "irc": "irc://irc.freenode.net/phpunit",
-                "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/4.0"
-            },
             "time": "2017-04-02T07:44:40+00:00"
         },
         {
@@ -507,11 +474,6 @@
                 "filesystem",
                 "iterator"
             ],
-            "support": {
-                "irc": "irc://irc.freenode.net/phpunit",
-                "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
-                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/1.4.5"
-            },
             "time": "2017-11-27T13:52:08+00:00"
         },
         {
@@ -553,10 +515,6 @@
             "keywords": [
                 "template"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/php-text-template/issues",
-                "source": "https://github.com/sebastianbergmann/php-text-template/tree/1.2.1"
-            },
             "time": "2015-06-21T13:50:34+00:00"
         },
         {
@@ -606,10 +564,6 @@
             "keywords": [
                 "timer"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/php-timer/issues",
-                "source": "https://github.com/sebastianbergmann/php-timer/tree/master"
-            },
             "time": "2017-02-26T11:10:40+00:00"
         },
         {
@@ -659,10 +613,6 @@
             "keywords": [
                 "tokenizer"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/php-token-stream/issues",
-                "source": "https://github.com/sebastianbergmann/php-token-stream/tree/master"
-            },
             "abandoned": true,
             "time": "2017-11-27T05:48:46+00:00"
         },
@@ -746,10 +696,6 @@
                 "testing",
                 "xunit"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/5.7.27"
-            },
             "time": "2018-02-01T05:50:59+00:00"
         },
         {
@@ -809,11 +755,6 @@
                 "mock",
                 "xunit"
             ],
-            "support": {
-                "irc": "irc://irc.freenode.net/phpunit",
-                "issues": "https://github.com/sebastianbergmann/phpunit-mock-objects/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit-mock-objects/tree/3.4"
-            },
             "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
@@ -861,9 +802,6 @@
                 "psr",
                 "psr-6"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/cache/tree/master"
-            },
             "time": "2016-08-06T20:24:11+00:00"
         },
         {
@@ -913,10 +851,6 @@
                 "container-interop",
                 "psr"
             ],
-            "support": {
-                "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container/tree/master"
-            },
             "time": "2017-02-14T16:28:37+00:00"
         },
         {
@@ -967,9 +901,6 @@
                 "request",
                 "response"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/http-message/tree/master"
-            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -1017,9 +948,6 @@
                 "psr",
                 "psr-3"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/log/tree/1.1.3"
-            },
             "time": "2020-03-23T09:12:05+00:00"
         },
         {
@@ -1068,9 +996,6 @@
                 "psr-16",
                 "simple-cache"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/simple-cache/tree/master"
-            },
             "time": "2017-10-23T01:57:42+00:00"
         },
         {
@@ -1116,10 +1041,6 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/issues",
-                "source": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/tree/1.0.2"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -1190,10 +1111,6 @@
                 "compare",
                 "equality"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/comparator/issues",
-                "source": "https://github.com/sebastianbergmann/comparator/tree/1.2"
-            },
             "time": "2017-01-29T09:50:25+00:00"
         },
         {
@@ -1246,10 +1163,6 @@
             "keywords": [
                 "diff"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/diff/issues",
-                "source": "https://github.com/sebastianbergmann/diff/tree/1.4"
-            },
             "time": "2017-05-22T07:24:03+00:00"
         },
         {
@@ -1300,10 +1213,6 @@
                 "environment",
                 "hhvm"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/environment/issues",
-                "source": "https://github.com/sebastianbergmann/environment/tree/master"
-            },
             "time": "2016-11-26T07:53:53+00:00"
         },
         {
@@ -1371,10 +1280,6 @@
                 "export",
                 "exporter"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/exporter/issues",
-                "source": "https://github.com/sebastianbergmann/exporter/tree/master"
-            },
             "time": "2016-11-19T08:54:04+00:00"
         },
         {
@@ -1426,10 +1331,6 @@
             "keywords": [
                 "global state"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/global-state/issues",
-                "source": "https://github.com/sebastianbergmann/global-state/tree/1.1.1"
-            },
             "time": "2015-10-12T03:26:01+00:00"
         },
         {
@@ -1476,10 +1377,6 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/object-enumerator/issues",
-                "source": "https://github.com/sebastianbergmann/object-enumerator/tree/master"
-            },
             "time": "2017-02-18T15:18:39+00:00"
         },
         {
@@ -1533,10 +1430,6 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
-                "source": "https://github.com/sebastianbergmann/recursion-context/tree/master"
-            },
             "time": "2016-11-19T07:33:16+00:00"
         },
         {
@@ -1579,10 +1472,6 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/resource-operations/issues",
-                "source": "https://github.com/sebastianbergmann/resource-operations/tree/master"
-            },
             "time": "2015-07-28T20:34:47+00:00"
         },
         {
@@ -1618,10 +1507,6 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/version/issues",
-                "source": "https://github.com/sebastianbergmann/version/tree/1.0.6"
-            },
             "time": "2015-06-21T13:59:46+00:00"
         },
         {
@@ -1684,9 +1569,6 @@
                 "polyfill",
                 "portable"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.22.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1764,9 +1646,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.22.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1835,9 +1714,6 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/yaml/tree/v4.4.18"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1898,10 +1774,6 @@
                 "idna",
                 "punycode"
             ],
-            "support": {
-                "issues": "https://github.com/true/php-punycode/issues",
-                "source": "https://github.com/true/php-punycode/tree/master"
-            },
             "time": "2016-11-16T10:37:54+00:00"
         },
         {
@@ -1951,10 +1823,6 @@
                 "check",
                 "validate"
             ],
-            "support": {
-                "issues": "https://github.com/webmozarts/assert/issues",
-                "source": "https://github.com/webmozarts/assert/tree/1.9.1"
-            },
             "time": "2020-07-08T17:02:28+00:00"
         },
         {
@@ -2017,14 +1885,6 @@
                 "ZendFramework",
                 "zf"
             ],
-            "support": {
-                "docs": "https://docs.zendframework.com/zend-authentication/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-authentication/issues",
-                "rss": "https://github.com/zendframework/zend-authentication/releases.atom",
-                "slack": "https://zendframework-slack.herokuapp.com",
-                "source": "https://github.com/zendframework/zend-authentication"
-            },
             "abandoned": "laminas/laminas-authentication",
             "time": "2018-04-12T21:09:22+00:00"
         },
@@ -2079,14 +1939,6 @@
                 "barcode",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-barcode/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-barcode/issues",
-                "rss": "https://github.com/zendframework/zend-barcode/releases.atom",
-                "source": "https://github.com/zendframework/zend-barcode"
-            },
             "abandoned": "laminas/laminas-barcode",
             "time": "2019-12-26T21:09:26+00:00"
         },
@@ -2171,14 +2023,6 @@
                 "psr-6",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-cache/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-cache/issues",
-                "rss": "https://github.com/zendframework/zend-cache/releases.atom",
-                "source": "https://github.com/zendframework/zend-cache"
-            },
             "abandoned": "laminas/laminas-cache",
             "time": "2019-08-28T21:34:32+00:00"
         },
@@ -2238,14 +2082,6 @@
                 "captcha",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-captcha/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-captcha/issues",
-                "rss": "https://github.com/zendframework/zend-captcha/releases.atom",
-                "source": "https://github.com/zendframework/zend-captcha"
-            },
             "abandoned": "laminas/laminas-captcha",
             "time": "2018-04-24T17:24:10+00:00"
         },
@@ -2299,10 +2135,6 @@
                 "code",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-code/issues",
-                "source": "https://github.com/zendframework/zend-code/tree/release-2.6"
-            },
             "abandoned": "laminas/laminas-code",
             "time": "2016-04-20T17:26:42+00:00"
         },
@@ -2360,10 +2192,6 @@
                 "config",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-config/issues",
-                "source": "https://github.com/zendframework/zend-config/tree/release-2.6.0"
-            },
             "abandoned": "laminas/laminas-config",
             "time": "2016-02-04T23:01:10+00:00"
         },
@@ -2418,14 +2246,6 @@
                 "console",
                 "zf"
             ],
-            "support": {
-                "docs": "https://docs.zendframework.com/zend-console/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-console/issues",
-                "rss": "https://github.com/zendframework/zend-console/releases.atom",
-                "slack": "https://zendframework-slack.herokuapp.com",
-                "source": "https://github.com/zendframework/zend-console"
-            },
             "abandoned": "laminas/laminas-console",
             "time": "2018-01-25T19:08:04+00:00"
         },
@@ -2477,10 +2297,6 @@
                 "crypt",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-crypt/issues",
-                "source": "https://github.com/zendframework/zend-crypt/tree/release-2.6.0"
-            },
             "abandoned": "laminas/laminas-crypt",
             "time": "2016-02-03T23:46:30+00:00"
         },
@@ -2540,14 +2356,6 @@
                 "db",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-db/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-db/issues",
-                "rss": "https://github.com/zendframework/zend-db/releases.atom",
-                "source": "https://github.com/zendframework/zend-db"
-            },
             "abandoned": "laminas/laminas-db",
             "time": "2019-12-31T19:43:46+00:00"
         },
@@ -2598,14 +2406,6 @@
                 "debug",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-debug/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-debug/issues",
-                "rss": "https://github.com/zendframework/zend-debug/releases.atom",
-                "source": "https://github.com/zendframework/zend-debug"
-            },
             "abandoned": true,
             "time": "2018-04-30T20:10:31+00:00"
         },
@@ -2654,10 +2454,6 @@
                 "di",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-di/issues",
-                "source": "https://github.com/zendframework/zend-di/tree/master"
-            },
             "abandoned": "laminas/laminas-di",
             "time": "2016-04-25T20:58:11+00:00"
         },
@@ -2721,10 +2517,6 @@
                 "psr",
                 "psr-7"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-diactoros/issues",
-                "source": "https://github.com/zendframework/zend-diactoros"
-            },
             "abandoned": "laminas/laminas-diactoros",
             "time": "2019-08-06T17:53:53+00:00"
         },
@@ -2771,14 +2563,6 @@
                 "dom",
                 "zf"
             ],
-            "support": {
-                "docs": "https://docs.zendframework.com/zend-dom/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-dom/issues",
-                "rss": "https://github.com/zendframework/zend-dom/releases.atom",
-                "slack": "https://zendframework-slack.herokuapp.com",
-                "source": "https://github.com/zendframework/zend-dom"
-            },
             "abandoned": "laminas/laminas-dom",
             "time": "2019-06-18T10:36:49+00:00"
         },
@@ -2825,14 +2609,6 @@
                 "escaper",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-escaper/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-escaper/issues",
-                "rss": "https://github.com/zendframework/zend-escaper/releases.atom",
-                "source": "https://github.com/zendframework/zend-escaper"
-            },
             "abandoned": "laminas/laminas-escaper",
             "time": "2019-09-05T20:03:20+00:00"
         },
@@ -2881,10 +2657,6 @@
                 "eventmanager",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-eventmanager/issues",
-                "source": "https://github.com/zendframework/zend-eventmanager/tree/release-2.6"
-            },
             "abandoned": "laminas/laminas-eventmanager",
             "time": "2017-12-12T17:48:56+00:00"
         },
@@ -2947,14 +2719,6 @@
                 "feed",
                 "zf"
             ],
-            "support": {
-                "docs": "https://docs.zendframework.com/zend-feed/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-feed/issues",
-                "rss": "https://github.com/zendframework/zend-feed/releases.atom",
-                "slack": "https://zendframework-slack.herokuapp.com",
-                "source": "https://github.com/zendframework/zend-feed"
-            },
             "abandoned": "laminas/laminas-feed",
             "time": "2018-08-01T13:53:20+00:00"
         },
@@ -3013,14 +2777,6 @@
                 "file",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-file/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-file/issues",
-                "rss": "https://github.com/zendframework/zend-file/releases.atom",
-                "source": "https://github.com/zendframework/zend-file"
-            },
             "abandoned": "laminas/laminas-file",
             "time": "2019-02-06T16:53:31+00:00"
         },
@@ -3087,14 +2843,6 @@
                 "filter",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-filter/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-filter/issues",
-                "rss": "https://github.com/zendframework/zend-filter/releases.atom",
-                "source": "https://github.com/zendframework/zend-filter"
-            },
             "abandoned": "laminas/laminas-filter",
             "time": "2019-08-19T07:08:04+00:00"
         },
@@ -3174,14 +2922,6 @@
                 "form",
                 "zf"
             ],
-            "support": {
-                "docs": "https://docs.zendframework.com/zend-form/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-form/issues",
-                "rss": "https://github.com/zendframework/zend-form/releases.atom",
-                "slack": "https://zendframework-slack.herokuapp.com",
-                "source": "https://github.com/zendframework/zend-form"
-            },
             "abandoned": "laminas/laminas-form",
             "time": "2018-12-11T22:51:29+00:00"
         },
@@ -3238,14 +2978,6 @@
                 "zend",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-http/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-http/issues",
-                "rss": "https://github.com/zendframework/zend-http/releases.atom",
-                "source": "https://github.com/zendframework/zend-http"
-            },
             "abandoned": "laminas/laminas-http",
             "time": "2019-02-07T17:47:08+00:00"
         },
@@ -3305,10 +3037,6 @@
                 "hydrator",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-hydrator/issues",
-                "source": "https://github.com/zendframework/zend-hydrator/tree/release-1.1"
-            },
             "abandoned": "laminas/laminas-hydrator",
             "time": "2016-02-18T22:38:26+00:00"
         },
@@ -3381,14 +3109,6 @@
                 "i18n",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-i18n/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-i18n/issues",
-                "rss": "https://github.com/zendframework/zend-i18n/releases.atom",
-                "source": "https://github.com/zendframework/zend-i18n"
-            },
             "abandoned": "laminas/laminas-i18n",
             "time": "2019-12-12T14:08:22+00:00"
         },
@@ -3436,14 +3156,6 @@
                 "translations",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-i18n-resources/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-i18n-resources/issues",
-                "rss": "https://github.com/zendframework/zend-i18n-resources/releases.atom",
-                "source": "https://github.com/zendframework/zend-i18n-resources"
-            },
             "abandoned": "laminas/laminas-i18n-resources",
             "time": "2019-06-25T01:21:12+00:00"
         },
@@ -3502,14 +3214,6 @@
                 "inputfilter",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-inputfilter/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-inputfilter/issues",
-                "rss": "https://github.com/zendframework/zend-inputfilter/releases.atom",
-                "source": "https://github.com/zendframework/zend-inputfilter"
-            },
             "abandoned": "laminas/laminas-inputfilter",
             "time": "2019-08-28T19:45:32+00:00"
         },
@@ -3566,10 +3270,6 @@
                 "json",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-json/issues",
-                "source": "https://github.com/zendframework/zend-json/tree/master"
-            },
             "abandoned": "laminas/laminas-json",
             "time": "2016-02-04T21:20:26+00:00"
         },
@@ -3616,14 +3316,6 @@
                 "loader",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-loader/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-loader/issues",
-                "rss": "https://github.com/zendframework/zend-loader/releases.atom",
-                "source": "https://github.com/zendframework/zend-loader"
-            },
             "abandoned": "laminas/laminas-loader",
             "time": "2019-09-04T19:38:14+00:00"
         },
@@ -3695,14 +3387,6 @@
                 "logging",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-log/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-log/issues",
-                "rss": "https://github.com/zendframework/zend-log/releases.atom",
-                "source": "https://github.com/zendframework/zend-log"
-            },
             "abandoned": "laminas/laminas-log",
             "time": "2019-12-27T16:18:31+00:00"
         },
@@ -3766,14 +3450,6 @@
                 "mail",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-mail/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-mail/issues",
-                "rss": "https://github.com/zendframework/zend-mail/releases.atom",
-                "source": "https://github.com/zendframework/zend-mail"
-            },
             "abandoned": "laminas/laminas-mail",
             "time": "2018-06-07T13:37:07+00:00"
         },
@@ -3825,10 +3501,6 @@
                 "math",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-math/issues",
-                "source": "https://github.com/zendframework/zend-math/tree/release-2.7"
-            },
             "abandoned": "laminas/laminas-math",
             "time": "2018-12-04T15:34:17+00:00"
         },
@@ -3879,14 +3551,6 @@
                 "memory",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-memory/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-memory/issues",
-                "rss": "https://github.com/zendframework/zend-memory/releases.atom",
-                "source": "https://github.com/zendframework/zend-memory"
-            },
             "abandoned": "laminas/laminas-memory",
             "time": "2019-10-16T11:10:24+00:00"
         },
@@ -3938,14 +3602,6 @@
                 "mime",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-mime/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-mime/issues",
-                "rss": "https://github.com/zendframework/zend-mime/releases.atom",
-                "source": "https://github.com/zendframework/zend-mime"
-            },
             "abandoned": "laminas/laminas-mime",
             "time": "2019-10-16T19:30:37+00:00"
         },
@@ -4006,14 +3662,6 @@
                 "modulemanager",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-modulemanager/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-modulemanager/issues",
-                "rss": "https://github.com/zendframework/zend-modulemanager/releases.atom",
-                "source": "https://github.com/zendframework/zend-modulemanager"
-            },
             "abandoned": "laminas/laminas-modulemanager",
             "time": "2019-10-28T13:29:38+00:00"
         },
@@ -4110,10 +3758,6 @@
                 "mvc",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-mvc/issues",
-                "source": "https://github.com/zendframework/zend-mvc/tree/release-2.7"
-            },
             "abandoned": "laminas/laminas-mvc",
             "time": "2018-05-03T13:13:41+00:00"
         },
@@ -4183,14 +3827,6 @@
                 "navigation",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-navigation/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-navigation/issues",
-                "rss": "https://github.com/zendframework/zend-navigation/releases.atom",
-                "source": "https://github.com/zendframework/zend-navigation"
-            },
             "abandoned": "laminas/laminas-navigation",
             "time": "2019-08-21T08:28:20+00:00"
         },
@@ -4257,14 +3893,6 @@
                 "paginator",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-paginator/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-paginator/issues",
-                "rss": "https://github.com/zendframework/zend-paginator/releases.atom",
-                "source": "https://github.com/zendframework/zend-paginator"
-            },
             "abandoned": "laminas/laminas-paginator",
             "time": "2019-08-21T13:31:03+00:00"
         },
@@ -4315,14 +3943,6 @@
                 "acl",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-permissions-acl/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-permissions-acl/issues",
-                "rss": "https://github.com/zendframework/zend-permissions-acl/releases.atom",
-                "source": "https://github.com/zendframework/zend-permissions-acl"
-            },
             "abandoned": "laminas/laminas-permissions-acl",
             "time": "2019-06-25T08:09:22+00:00"
         },
@@ -4369,10 +3989,6 @@
                 "rbac",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-permissions-rbac/issues",
-                "source": "https://github.com/zendframework/zend-permissions-rbac/tree/release-2.6.0"
-            },
             "abandoned": "laminas/laminas-permissions-rbac",
             "time": "2018-02-01T09:55:50+00:00"
         },
@@ -4426,14 +4042,6 @@
                 "progressbar",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-progressbar/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-progressbar/issues",
-                "rss": "https://github.com/zendframework/zend-progressbar/releases.atom",
-                "source": "https://github.com/zendframework/zend-progressbar"
-            },
             "abandoned": "laminas/laminas-progressbar",
             "time": "2018-04-30T19:15:33+00:00"
         },
@@ -4484,10 +4092,6 @@
                 "psr",
                 "psr-7"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-psr7bridge/issues",
-                "source": "https://github.com/zendframework/zend-psr7bridge"
-            },
             "abandoned": "laminas/laminas-psr7bridge",
             "time": "2016-05-10T21:44:39+00:00"
         },
@@ -4546,14 +4150,6 @@
                 "serializer",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-serializer/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-serializer/issues",
-                "rss": "https://github.com/zendframework/zend-serializer/releases.atom",
-                "source": "https://github.com/zendframework/zend-serializer"
-            },
             "abandoned": "laminas/laminas-serializer",
             "time": "2019-10-19T08:06:30+00:00"
         },
@@ -4602,14 +4198,6 @@
                 "server",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-server/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-server/issues",
-                "rss": "https://github.com/zendframework/zend-server/releases.atom",
-                "source": "https://github.com/zendframework/zend-server"
-            },
             "abandoned": "laminas/laminas-server",
             "time": "2019-10-16T18:27:05+00:00"
         },
@@ -4663,10 +4251,6 @@
                 "servicemanager",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-servicemanager/issues",
-                "source": "https://github.com/zendframework/zend-servicemanager/tree/release-2.7.11"
-            },
             "abandoned": "laminas/laminas-servicemanager",
             "time": "2018-06-22T14:49:54+00:00"
         },
@@ -4735,14 +4319,6 @@
                 "session",
                 "zf"
             ],
-            "support": {
-                "docs": "https://docs.zendframework.com/zend-session/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-session/issues",
-                "rss": "https://github.com/zendframework/zend-session/releases.atom",
-                "slack": "https://zendframework-slack.herokuapp.com",
-                "source": "https://github.com/zendframework/zend-session"
-            },
             "abandoned": "laminas/laminas-session",
             "time": "2019-09-19T19:50:12+00:00"
         },
@@ -4797,10 +4373,6 @@
                 "soap",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-soap/issues",
-                "source": "https://github.com/zendframework/zend-soap/tree/release-2.8.0"
-            },
             "abandoned": "laminas/laminas-soap",
             "time": "2019-04-30T16:45:35+00:00"
         },
@@ -4861,10 +4433,6 @@
                 "stdlib",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-stdlib/issues",
-                "source": "https://github.com/zendframework/zend-stdlib/tree/release-2.7"
-            },
             "abandoned": "laminas/laminas-stdlib",
             "time": "2016-04-12T21:17:31+00:00"
         },
@@ -4917,14 +4485,6 @@
                 "tag",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-tag/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-tag/issues",
-                "rss": "https://github.com/zendframework/zend-tag/releases.atom",
-                "source": "https://github.com/zendframework/zend-tag"
-            },
             "abandoned": "laminas/laminas-tag",
             "time": "2019-04-30T21:23:21+00:00"
         },
@@ -4987,10 +4547,6 @@
                 "test",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-test/issues",
-                "source": "https://github.com/zendframework/zend-test/tree/release-2.6.1"
-            },
             "abandoned": "laminas/laminas-test",
             "time": "2016-03-02T20:15:27+00:00"
         },
@@ -5040,14 +4596,6 @@
                 "text",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-text/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-text/issues",
-                "rss": "https://github.com/zendframework/zend-text/releases.atom",
-                "source": "https://github.com/zendframework/zend-text"
-            },
             "abandoned": "laminas/laminas-text",
             "time": "2019-10-16T20:36:27+00:00"
         },
@@ -5096,14 +4644,6 @@
                 "uri",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-uri/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-uri/issues",
-                "rss": "https://github.com/zendframework/zend-uri/releases.atom",
-                "source": "https://github.com/zendframework/zend-uri"
-            },
             "abandoned": "laminas/laminas-uri",
             "time": "2019-10-07T13:35:33+00:00"
         },
@@ -5178,10 +4718,6 @@
                 "validator",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-validator/issues",
-                "source": "https://github.com/zendframework/zend-validator/tree/master"
-            },
             "abandoned": "laminas/laminas-validator",
             "time": "2019-01-29T22:26:39+00:00"
         },
@@ -5233,10 +4769,6 @@
                 "version",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zend-version/issues",
-                "source": "https://github.com/zendframework/zend-version/tree/release-2.5.1"
-            },
             "abandoned": "ocramius/package-versions",
             "time": "2015-06-04T15:41:05+00:00"
         },
@@ -5325,14 +4857,6 @@
                 "view",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-view/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-view/issues",
-                "rss": "https://github.com/zendframework/zend-view/releases.atom",
-                "source": "https://github.com/zendframework/zend-view"
-            },
             "abandoned": "laminas/laminas-view",
             "time": "2019-12-04T08:40:50+00:00"
         },
@@ -5387,14 +4911,6 @@
                 "xmlrpc",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-xmlrpc/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/zend-xmlrpc/issues",
-                "rss": "https://github.com/zendframework/zend-xmlrpc/releases.atom",
-                "source": "https://github.com/zendframework/zend-xmlrpc"
-            },
             "abandoned": "laminas/laminas-xmlrpc",
             "time": "2018-05-14T19:17:17+00:00"
         },
@@ -5491,10 +5007,6 @@
                 "framework",
                 "zf2"
             ],
-            "support": {
-                "issues": "https://github.com/zendframework/zendframework/issues",
-                "source": "https://github.com/zendframework/zendframework/tree/release-2.5.3"
-            },
             "abandoned": "laminas/laminas-mvc-skeleton",
             "time": "2016-01-27T18:00:44+00:00"
         },
@@ -5542,13 +5054,6 @@
                 "xml",
                 "zf"
             ],
-            "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
-                "issues": "https://github.com/zendframework/ZendXml/issues",
-                "rss": "https://github.com/zendframework/ZendXml/releases.atom",
-                "source": "https://github.com/zendframework/ZendXml"
-            },
             "abandoned": "laminas/laminas-xml",
             "time": "2019-01-22T19:42:14+00:00"
         }
@@ -5564,5 +5069,5 @@
         "ext-intl": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
