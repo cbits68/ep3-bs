@@ -396,6 +396,11 @@ class BookingController extends AbstractActionController
                     $booking->setMeta('cancellor', $sessionUser->get('alias'));
                     $booking->setMeta('cancelled', date('Y-m-d H:i:s'));
                     $bookingManager->save($booking);
+					
+					/* send cancellation confirmation email */
+					$bookingService = $serviceManager->get('Booking\Service\BookingService');
+					$bookingService->cancelSingle($booking);
+					return $this->redirectBack()->toOrigin();
 
                     $this->flashMessenger()->addSuccessMessage('Booking has been cancelled');
                 } else {
