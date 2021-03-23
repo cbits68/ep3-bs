@@ -141,14 +141,14 @@ class BookingController extends AbstractActionController
                     /* Update booking/reservation */
 
                     $savedBooking = $this->backendBookingUpdate($d['bf-rid'], $d['bf-user'], $d['bf-time-start'], $d['bf-time-end'], $d['bf-date-start'],
-                        $d['bf-sid'], $d['bf-status-billing'], $d['bf-quantity'], $d['bf-notes'], $params['editMode']);
+                        $d['bf-sid'], $d['bf-status-billing'], $d['bf-quantity'], $d['bf-playernames'], $d['bf-notes'], $params['editMode']);
 
                 } else {
 
                     /* Create booking/reservation */
 
                     $savedBooking = $this->backendBookingCreate($d['bf-user'], $d['bf-time-start'], $d['bf-time-end'], $d['bf-date-start'], $d['bf-date-end'],
-                        $d['bf-repeat'], $d['bf-sid'], $d['bf-status-billing'], $d['bf-quantity'], $d['bf-notes'], $sessionUser->get('alias'));
+                        $d['bf-repeat'], $d['bf-sid'], $d['bf-status-billing'], $d['bf-quantity'], $d['bf-playernames'], $d['bf-notes'], $sessionUser->get('alias'));
                 }
 
                 $this->flashMessenger()->addSuccessMessage('Booking has been saved');
@@ -164,6 +164,17 @@ class BookingController extends AbstractActionController
         } else {
             if ($booking) {
                 $user = $booking->needExtra('user');
+				
+				$fillPlayerNames = '';
+				$playerCount = count(unserialize($booking->getMeta('player-names')));
+				foreach (unserialize($booking->getMeta('player-names')) as $i => $fillPlayerName) {
+					if ($i+1 < $playerCount) {
+						$fillPlayerNames .= sprintf("%s\n", $fillPlayerName['value']);
+					}
+					else {
+						$fillPlayerNames .= sprintf("%s", $fillPlayerName['value']);
+					}
+				}
 
                 $editForm->setData(array(
                     'bf-rid' => $reservation->get('rid'),
@@ -171,6 +182,7 @@ class BookingController extends AbstractActionController
                     'bf-sid' => $booking->get('sid'),
                     'bf-status-billing' => $booking->get('status_billing'),
                     'bf-quantity' => $booking->get('quantity'),
+					'bf-playernames' => $fillPlayerNames,										  
                     'bf-notes' => $booking->getMeta('notes'),
                 ));
 

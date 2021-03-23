@@ -78,9 +78,16 @@ class EditForm extends Form
             ),
         ));
 
+       $quantityOptions = array();
+		
+		$quantityAvailable = $square->need('capacity');
+		
+        for ($i = 2; $i <= $quantityAvailable; $i++) {
+            $quantityOptions[$i] = $i;
+        }	
         $this->add(array(
             'name' => 'bf-quantity',
-            'type' => 'Text',
+            'type' => 'Select',
             'attributes' => array(
                 'id' => 'bf-quantity',
                 'style' => 'width: 110px;',
@@ -88,7 +95,20 @@ class EditForm extends Form
             ),
             'options' => array(
                 'label' => 'Number of players',
+				'value_options' => $quantityOptions,
             ),
+        ));
+		
+		$this->add(array(
+            'name' => 'bf-playernames',
+            'type' => 'Textarea',
+            'attributes' => array(
+                'id' => 'bf-playernames',
+                'style' => 'width: 200px; height: 96px;',													 
+            ),
+            'options' => array(
+                'label' => 'Player\'s names',
+            ),		  
         ));
 
         $this->add(array(
@@ -316,6 +336,12 @@ class EditForm extends Form
                     ),
                 ),
             ),
+			'bf-playernames' => array(
+                'required' => false,
+                'filters' => array(
+                    array('name' => 'StringTrim'),
+                ),
+            ), 
             'bf-notes' => array(
                 'required' => false,
                 'filters' => array(
