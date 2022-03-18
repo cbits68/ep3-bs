@@ -33,11 +33,11 @@ return array(
     'This booking does not exist' => 'Diese Buchung gibt es nicht',
     'This reservation does not exist' => 'Diese Reservierung gibt es nicht',
 
-    'Your %s-booking for %s' => 'Ihre %s-Buchung am %s',
+    'Your %s-booking for %s' => 'Deine %s-Buchung am %s',
     'we have reserved %s %s, %s for you. Thank you for your booking.'
-        => 'wir haben %s %s am %s für Sie reserviert. Vielen Dank für Ihre Buchung.',
+        => '%s %s wurde am %s für Dich reserviert. Vielen Spaß beim Tennisspielen.',
     'we have just cancelled %s %s, %s for you.'
-        => 'wir haben Ihre Buchung für %s %s, %s storniert.',
+        => 'Deine Buchung für %s %s, %s wurde storniert.',
 
     '%s\'s %s-booking for %s' => '%s\'s %s-Buchung am %s',
     '%s\'s %s-booking has been cancelled' => '%s\'s %s-Buchung wurde storniert',

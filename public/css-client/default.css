@@ -29,17 +29,7 @@ a.cc-conflict:hover { background-color: #334F6A; }
     background-color: #547B97 !important;
 }
 
-/* General Purpose - Classes */
-
-.my-highlight { color: #5F8024; }
-
-.badge { background-color: #547B97; }
-.badge-label { color: #547B97; }
-
-/* Links */
-
-a:link, a:visited { color: #334F6A; }
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
     #label-client {
         margin-top: 16px;
     }
@@ -79,4 +69,16 @@ a:link, a:visited { color: #334F6A; }
     .calendar-date-table.full-width {
         min-width: 800px;
     }
-} */
+}
+
+
+/* General Purpose - Classes */
+
+.my-highlight { color: #5F8024; }
+
+.badge { background-color: #547B97; }
+.badge-label { color: #547B97; }
+
+/* Links */
+
+a:link, a:visited { color: #334F6A; }

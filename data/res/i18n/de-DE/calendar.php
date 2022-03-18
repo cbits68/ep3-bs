@@ -16,7 +16,7 @@ return array(
     'Conflict' => 'Konflikt',
     'Occupied' => 'Belegt',
 
-    'Your Booking' => 'Ihre Buchung',
+    'Your Booking' => 'Deine Buchung',
 
     'Loading' => 'Wird geladen',
     'Please wait' => 'Bitte warten',
