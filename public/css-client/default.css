@@ -22,6 +22,10 @@ a.cc-conflict:link,
 a.cc-conflict:visited { background-color: #334F6A; }
 a.cc-conflict:hover { background-color: #334F6A; }
 
+/* Layout - Disable Overlay Events */
+
+a[id*="-overlay-"] { visibility: hidden; }
+
 /* Layout - Alternate Calendar */
 
 .cc-range-member a {
@@ -34,7 +38,7 @@ a.cc-conflict:hover { background-color: #334F6A; }
         margin-top: 16px;
     }
 
-    #branding,
+/*    #branding,*/
     #topbar-contact,
     #topbar-infos,
     #topbar-phone,

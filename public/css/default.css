@@ -117,7 +117,8 @@ a#logo:active { top: 1px; }
     cursor: default;
 }
 
-#branding {
+#branding display: none; /* Branding disabled */
+/*#branding {
     margin-top: 3px;
     text-indent: 113px;
     font-style: italic;
@@ -126,6 +127,7 @@ a#logo:active { top: 1px; }
 }
 
 #branding a:link, #branding a:visited { color: #BBB; text-decoration: none; border-bottom: solid 1px #666; }
+*/
 
 #topbar {
     position: absolute;
@@ -138,7 +140,7 @@ a#logo:active { top: 1px; }
 #topbar > div { margin: 16px 0 0 32px; float: right; }
 
 #topbar-separator { width: 1px; height: 42px; background: #666; }
-#topbar-phone { padding-left: 48px; background: url(../imgs/icons/topbar-phone.png) no-repeat left center; }
+#topbar-phone { display: none; padding-left: 48px; background: url(../imgs/icons/topbar-phone.png) no-repeat left center; }
 #topbar-infos { padding-left: 48px; background: url(../imgs/icons/topbar-eye.png) no-repeat left center; }
 #topbar-website { padding-left: 42px; background: url(../imgs/icons/topbar-home.png) no-repeat left center; }
 #topbar-contact { padding-left: 50px; background: url(../imgs/icons/topbar-face.png) no-repeat left center; }
@@ -322,6 +324,8 @@ a.squarebox-primary-close-link:hover {
     color: #FFF !important;
     background: #933;
 }
+/* Layout disable Overlay Events */
+a[id*="-overlay-"] { visibility: hidden; }
 
 /* Layout - Alternate Calendar */
 
