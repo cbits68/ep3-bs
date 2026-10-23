@@ -141,6 +141,7 @@ class Create extends AbstractPlugin
 
             if ($transaction) {
                 $this->connection->commit();
+                $transaction = false;
             }
 
             return $booking;
