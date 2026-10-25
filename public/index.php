@@ -9,11 +9,11 @@ chdir(dirname(__DIR__));
 
 /**
  * Quickly check the current PHP version.
- */
-if (version_compare(PHP_VERSION, '8.1.0') < 0) {
-    exit('PHP 8.1+ is required (currently running PHP ' . PHP_VERSION . ')');
-}
 
+if (version_compare(PHP_VERSION, '8.0.24') < 0) {
+    exit('PHP 8.0+ is required (currently running PHP ' . PHP_VERSION . ')');
+}
+ */
 /**
  * Quickly check if the intl extension is installed.
  */
